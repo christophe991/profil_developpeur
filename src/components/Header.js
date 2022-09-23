@@ -1,9 +1,9 @@
 
 function Header(){
     return(
-        <header class="bg-blue-200">
+        <header class="bg-zinc-500">
 
-        <nav class="p-5 bg-blue-200">
+        <nav class="p-5" >
             <div class="container flex flex-wrap  items-center  bg-zinc-500">
                 <p href="../index.php" class="flex items-center">
                 <img src="img/d&c.png" class="mr-3 h-6 sm:h-10" alt="videotheque Logo"/>
@@ -11,7 +11,7 @@ function Header(){
                     <span class="self-center text-xl font-semibold whitespace-nowrap text-white">Développeur web</span>
                     <span class="self-center text-xl font-semibold whitespace-nowrap text-white ml-1">&</span>
                     
-                    <span class="self-center text-xl font-semibold whitespace-nowrap text-white">Concepteur d'application</span>
+                    <span class="self-center text-xl font-semibold whitespace-nowrap text-white ml-1">Concepteur d'application</span>
                 </p>
                 <button data-collapse-toggle="navbar-solid-bg" type="button"
                     class="inline-flex justify-center items-center ml-3 text-gray-400 rounded-lg md:hidden hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-blue-300 dark:text-gray-400 dark:hover:text-white dark:focus:ring-gray-500"
