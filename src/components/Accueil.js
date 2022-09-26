@@ -2,7 +2,7 @@ function Accueil() {
     return (
         <div>
             <h1 className="font-bold text-center text-xl mt-20 ">Développeur full-stack</h1>
-            <div class=" m-20">
+            <div class=" m-20 drop-shadow-2xl">
                 <div class="flex flex-col md:flex-row md:max-w-xl rounded-lg bg-white shadow-lg">
                     <img class=" w-full h-60 m-10 object-cover md:w-48 rounded-t-lg md:rounded-none md:rounded-l-lg mt-10" src="img/photo1.png" alt="" />
                     <div class="p-6 flex flex-col justify-start">
@@ -32,12 +32,18 @@ function Accueil() {
                     </div>
                 </div>
             </div>
-            <div className=" ml-96">
+            <div className=" ml-96 mt-20">
                 <p className="w-3/5  ">
-                    Je suis en reconversion professionnelle depuis 2 ans, actuellement en formation CDA bac+3/4 je travaille tous les jours pour devenir développeur confirmer,
-                    je recherche un terrain stage pour être formé gratuitement pendant 3 mois du 20 février au 19 mai 2023 et valider mon diplôme. Grace a INSY2S en association avec l’incubateur,
-                    j'ai travaillé sur un projet e-commerce en méthode agile, un Daily meeting et une review tous les 15 jours pour montrer le travail effectué maintenant,
-                    je cherche une entreprise qui me ferait confiance en mes compétences et mes qualités.
+                Je suis en reconversion professionnel depuis 2 ans, actuellement en formation CDA bac+3/4, 
+                je recherche un terrain stage pour être former gratuitement pendant 3 mois du 20 février au 19 mai 2023 et valider mon diplôme.
+                </p>
+                <p className="w-3/5 mt-10 ">
+                Je travaille tous les jours en créant des projets personnels sur divers langage de programmation afin de devenir un développeur confirmé.
+                </p>
+                <p className="w-3/5 mt-10 ">
+                Grace a INSY2S en association avec l’incubateur j’ai travaillé sur un projet e-commerce en méthode agile, 
+                un Daily meeting et une review tous les 15 jours pour montrer le travail effectuer, 
+                maintenant je cherche une entreprise qui me ferait confiance en mes compétences et mes qualités.
                 </p>
             </div>
         </div>
