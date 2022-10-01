@@ -5,8 +5,8 @@ const Accueil = () => {
     return (
         <div>
             <h1 className="font-bold text-center text-xl mt-20 ">Développeur full-stack</h1>
-            
-           
+
+
             <div class=" m-20 drop-shadow-2xl">
                 <div class="flex flex-col md:flex-row md:max-w-xl rounded-lg bg-white shadow-lg">
                     <img class=" w-full h-60 m-10 object-cover md:w-48 rounded-t-lg md:rounded-none md:rounded-l-lg mt-10" src="img/photo1.png" alt="" />
@@ -40,28 +40,19 @@ const Accueil = () => {
             </div>
             <div className=" ml-96 mt-20">
                 <p className="w-3/5 ml-60  ">
-                Ce site a pour but de vous montrer tous les projets créer en groupe durant la formation, mais aussi ceux créer pendant le loisir.
-
-
-
+                    Ce site a pour but de vous montrer tous les projets créer en groupe durant la formation, mais aussi ceux créer pendant le loisir.
+                    Je suis rigoureux, assidue, sociable, curieux et persévérant.
 
                 </p>
                 <p className="w-3/5 ml-60 mt-10  ">
-                En reconversion professionnelle depuis 2 ans, je suis actuellement en formation CDA bac+3/4 (concepteur développeur d'application) 
-                afin de monter davantage en compétence et me donner toutes les chances pour réussir à travailler dans ce domaine, 
-                je recherche une entreprise qui me ferait confiance en mes compétences et mes qualités pour effectuer un stage de mois du 20 février au 19 mai 2023, 
-                cela me permettras d’être formé gratuitement et de valider mon diplôme.
-
-
-
-
+                    En reconversion professionnelle depuis 2 ans, je suis actuellement en formation CDA bac+3/4 (concepteur développeur d'application)
+                    afin de monter davantage en compétence et me donner toutes les chances pour réussir à travailler dans ce domaine,
+                    je recherche une entreprise qui me ferait confiance en mes compétences et mes qualités pour effectuer un stage de mois du 20 février au 19 mai 2023,
+                    cela me permettras d’être formé gratuitement et de valider mon diplôme.
                 </p>
                 <p className="w-3/5 mt-10 ml-60 ">
-                Je travaille tous les jours en créant des projets personnels sur divers langages de programmation je vous invite à naviguer 
-                sur mon profil pour mieux me connaitre, hésitez pas à me contacter pour plus d’informations.
-
-
-
+                    Je travaille tous les jours en créant des projets personnels sur divers langages de programmation je vous invite à naviguer
+                    sur mon profil pour mieux me connaitre, hésitez pas à me contacter pour plus d’informations.
                 </p>
 
             </div>
