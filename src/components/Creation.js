@@ -9,15 +9,35 @@ const Creation = () => {
                 d'autre projet seront ajouter par la suite.
 
             </p>
-            <h2>Mini jeu en javascript</h2>
-            <div>
+            <h2>Mini jeux et horloge en javascript</h2>
+            <div className='flex flex-nowrap mt-20 justify-around'>
                 <div class="flex justify-center">
                     <div class="rounded-lg shadow-lg bg-white max-w-sm">
                         <a href="#!">
-                            <img class="rounded-t-lg" src="https://mdbootstrap.com/img/new/standard/nature/184.jpg" alt="" />
+                            <img class="rounded-t-lg h-60" src="img/memoire.png" alt="jeu de memoire" />
                         </a>
                         <div class="p-6">
-                            <h5 class="text-gray-900 text-xl font-medium mb-2 font-bold">Tetris</h5>
+                            <h5 class="text-gray-900 text-xl mb-2 font-bold">Jeu de memoire</h5>
+                            <p class="text-gray-900 text-xl  mb-2">
+                                Retourner les cartes pour trouver une pair, quand c'est bon une
+                                alerte demande de recommencer, quand la pair est trouver une alertes'affiche aussi
+                                et enleve les deux bonne cartes avec un score evolutif.
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="flex justify-center">
+                    <div class="rounded-lg shadow-lg bg-white max-w-sm">
+                        <a href="#!">
+                            <img class="rounded-t-lg h-60" src="img/space.png" alt="space inveders" />
+                        </a>
+                        <div class="p-6">
+                            <h5 class="text-gray-900 text-xl  mb-2 font-bold">Space inveders</h5>
+                            <p class="text-gray-900 text-xl  mb-2">
+                                Les ronds noir descende a une  vitesse régler par defaut,
+                                en appuyant sur la flache du haut on tire un carré
+                            </p>
 
 
                         </div>
@@ -26,10 +46,15 @@ const Creation = () => {
                 <div class="flex justify-center">
                     <div class="rounded-lg shadow-lg bg-white max-w-sm">
                         <a href="#!">
-                            <img class="rounded-t-lg" src="https://mdbootstrap.com/img/new/standard/nature/184.jpg" alt="" />
+                            <img class="rounded-t-lg h-60" src="img/horloge.png" alt="horloge" />
                         </a>
                         <div class="p-6">
-                            <h5 class="text-gray-900 text-xl font-medium mb-2 font-bold">Jeu de memoire</h5>
+                            <h5 class="text-gray-900 text-xl  mb-2 font-bold">Horloge</h5>
+                            <p class="text-gray-900 text-xl  mb-2">
+                                Background color noir au centre et des background pour les ailluigues
+                                de differente couleur et de taille (rouge pour les secondes, noir pour les minutes et heures)
+
+                            </p>
 
 
                         </div>

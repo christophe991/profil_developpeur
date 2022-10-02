@@ -1,4 +1,5 @@
 import React from 'react'
+import "../styles/Competence.css"
 
 
 const Competence = () => {
@@ -13,8 +14,8 @@ const Competence = () => {
 
                 </p>
             </div>
-            <div className="flex flex-col w-96 ml-96 mt-10 ">
-                <div className="flex flex-col w-96 ml-96 col-span-2 ">
+            <div className="flex flex-col w-96 ml-20 mt-10 wrapper ">
+                <div className="flex flex-col w-96 ml-96 col-span-2 one ">
                     <div className="overflow-x-auto sm:-mx-6 lg:-mx-8">
                         <div className="py-2 inline-block min-w-full sm:px-6 lg:px-8">
                             <div className="overflow-hidden">
@@ -37,7 +38,7 @@ const Competence = () => {
                                     </thead>
                                     <tbody>
                                         <tr className="border-b ">
-                                            <img src="img/angular.png" className="h-20 ml-10 " alt="Logo angular " />
+                                            <img src="img/angular.png" className="h-20 ml-10 taille " alt="Logo angular " />
                                             <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
                                                 Angular
                                             </td>
@@ -53,7 +54,7 @@ const Competence = () => {
 
                                         </tr>
                                         <tr className="bg-white border-b">
-                                            <img src="img/synfony.png" className="h-20 ml-3  " alt="Logo synfony " />
+                                            <img src="img/synfony.png" className="h-20 ml-3   " alt="Logo synfony " />
                                             <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
                                                 Synfony
                                             </td>
@@ -61,7 +62,7 @@ const Competence = () => {
 
                                         </tr>
                                         <tr className="bg-white border-b">
-                                            <img src="img/node.png" className="h-20 ml-3  " alt="Logo node " />
+                                            <img src="img/node.png" className="h-20 ml-3 taille1  " alt="Logo node " />
                                             <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
                                                 NodeJS
                                             </td>
@@ -69,7 +70,7 @@ const Competence = () => {
 
                                         </tr>
                                         <tr className="bg-white border-b">
-                                            <img src="img/javafx.png" className="h-20 ml-3  " alt="Logo javafx " />
+                                            <img src="img/javafx.png" className="h-20 ml-3 taille1 " alt="Logo javafx " />
                                             <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
                                                 JavaFX
                                             </td>
@@ -77,7 +78,7 @@ const Competence = () => {
 
                                         </tr>
                                         <tr className="bg-white border-b">
-                                            <img src="img/scenebuilder.png" className="h-20 ml-3  " alt="Logo scenebuilder " />
+                                            <img src="img/scenebuilder.png" className="h-20 ml-3 taille  " alt="Logo scenebuilder " />
                                             <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
                                                 SceneBuilder
                                             </td>
@@ -85,7 +86,7 @@ const Competence = () => {
 
                                         </tr>
                                         <tr classNames="bg-white border-b">
-                                            <img src="img/react.png" className="h-20 ml-3  " alt="Logo react " />
+                                            <img src="img/react.png" className="h-20 ml-3 taille " alt="Logo react " />
                                             <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
                                                 React
                                             </td>
@@ -93,7 +94,7 @@ const Competence = () => {
 
                                         </tr>
                                         <tr className="bg-white border-b">
-                                            <img src="img/vue.jpg" className="h-20 ml-3  " alt="Logo vue " />
+                                            <img src="img/vue.jpg" className="h-20 ml-3 taille " alt="Logo vue " />
                                             <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
                                                 VueJS
                                             </td>
@@ -101,7 +102,7 @@ const Competence = () => {
 
                                         </tr>
                                         <tr className="bg-white border-b">
-                                            <img src="img/php.png" className="h-20 ml-3  " alt="Logo php " />
+                                            <img src="img/php.png" className="h-20 ml-3 taille " alt="Logo php " />
                                             <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
                                                 PHP
                                             </td>
@@ -109,7 +110,7 @@ const Competence = () => {
 
                                         </tr>
                                         <tr className="bg-white border-b">
-                                            <img src="img/bootstrap.png" className="h-20 ml-3  " alt="Logo bootstrap " />
+                                            <img src="img/bootstrap.png" className="h-20 ml-3 taille  " alt="Logo bootstrap " />
                                             <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
                                                 Bootstrap
                                             </td>
@@ -130,7 +131,7 @@ const Competence = () => {
                         </div>
                     </div>
                 </div>
-                <div className="flex flex-col w-96 ml-96 mt-20 ">
+                <div className="flex flex-col w-96 ml-96 two ">
                     <div className="overflow-x-auto sm:-mx-6 lg:-mx-8">
                         <div className="py-2 inline-block min-w-full sm:px-6 lg:px-8">
                             <div className="overflow-hidden">
@@ -143,7 +144,7 @@ const Competence = () => {
                                                 Image
                                             </th>
                                             <th scope="col" className="text-sm font-medium text-gray-900 px-6 py-4 text-left">
-                                                Programme
+                                                Nom
                                             </th>
 
 
@@ -218,6 +219,22 @@ const Competence = () => {
                                             <img src="img/vscode.png" className="h-20 ml-3  " alt="Logo php " />
                                             <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
                                                 Visual Studio Code
+                                            </td>
+
+
+                                        </tr>
+                                        <tr className="bg-white border-b">
+                                            <img src="img/R.png" className="h-20 ml-3  " alt="Logo php " />
+                                            <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                                                JMerise
+                                            </td>
+
+
+                                        </tr>
+                                        <tr className="bg-white border-b">
+                                            <img src="img/talend.png" className="h-20 ml-3  " alt="Logo php " />
+                                            <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                                                Talend
                                             </td>
 
 
