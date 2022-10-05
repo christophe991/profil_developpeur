@@ -7,6 +7,8 @@ import Footer from './components/Footer';
 import Header from './components/Header';
 import Creation from './components/Creation'
 import Competence from './components/Competence';
+import Formation from './components/Formation';
+import Experience from './components/Experience';
 
 
 
@@ -35,13 +37,14 @@ function App() {
             
           </div>
           <div >
-          <NavLink to="/" className="text-white"  >
+          <NavLink to="/formation" className="text-white"  >
               Formations
             </NavLink>
             
           </div>
+          
           <div >
-          <NavLink to="/" className="text-white"  >
+          <NavLink to="/experience" className="text-white"  >
               Experiences
             </NavLink>
             
@@ -50,14 +53,18 @@ function App() {
             <NavLink to="/creation" className="text-white" >
               Création
             </NavLink>
+            
           </div>
 
         </div>
         </div>
         <Routes>
           <Route exact path="/" element={<Accueil />} />
-          <Route exact path="/creation" element={<Creation />} />
           <Route exact path="/competence" element={<Competence />} />
+          <Route exact path="/formation" element={<Formation />}/>
+          <Route exact path="/creation" element={<Creation />} />
+          <Route exact path="/experience" element={<Experience />} />
+          
 
         </Routes>
       </BrowserRouter>
