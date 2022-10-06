@@ -56,6 +56,14 @@ const Accueil = () => {
                 </p>
 
             </div>
+            <div className='ml-20'>
+                <h3 className="font-bold text-xl mt-20 ">Loisirs</h3>
+                <ul>
+                    <li>Création de projet</li>
+                    <li>Jeux vidéo et suivi d'actualité</li>
+                    <li>T.V : films, series et Xgame</li>
+                </ul>
+            </div>
         </div>
     )
 
