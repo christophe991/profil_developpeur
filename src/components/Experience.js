@@ -43,11 +43,26 @@ const Experience = () => {
                         <div class="p-6">
                             <h5 class="text-gray-900 text-xl mb-2 font-bold"> Intranet</h5>
                             <hr></hr>
-                            <h3 class="text-gray-900 text-xl">Site veb en React et api en CSharp</h3>
+                            <h3 class="text-gray-900 text-xl">Site web en React et api en CSharp</h3>
                             <p class="text-gray-900 text-xl  mb-2">
                                 Systeme de messagerie pour les entreprise,
-                                avec une gestion administratteur pour valider un message,
+                                avec une gestion administrateur pour valider un message,
                                 connexion de l'utilisateur et possibilité de repondre au message.
+                            </p>
+
+                        </div>
+                    </div>
+                    <div class="rounded-lg shadow-lg bg-white max-w-sm">
+                        
+                        <div class="p-6">
+                            <h5 class="text-gray-900 text-xl mb-2 font-bold"> Virtual mall</h5>
+                            <hr></hr>
+                            <h3 class="text-gray-900 text-xl">Site web en Synfony</h3>
+                            <p class="text-gray-900 text-xl  mb-2">
+                                Site web pour reunir plusieurs enseigne pour aider l'utilisateur
+                                a trouver ce qu'il, une connexion a MYSQL, connexion des commerçants
+                                pour ajouter l'enseigne et ajout de produit, connexion d'un administrateur pour verifier
+                                les données. Affichage par type d'enseigne.
                             </p>
 
                         </div>
