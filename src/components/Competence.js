@@ -5,9 +5,9 @@ import "../styles/Competence.css"
 const Competence = () => {
     return (
         <div>
-            <h1 className="mt-20">Compétences et outils utilisés</h1>
+            <h1 className="mt-10 text-center font-medium text-2xl">Compétences et outils utilisés</h1>
             <div className="mt-20">
-                <p>
+                <p className='m-10 text-justify'>
                     Liste de mes compétences en développement, ayant une bonne maitrise pour le frontend,
                     je m’exerce davantage sur le backend afin de monter en expérience.Ensuite,
                     vous trouverez la liste des outils utilisée en formation et en projet personnelle.
@@ -21,7 +21,7 @@ const Competence = () => {
                             <div className="overflow-hidden">
                                 <table className="min-w-full">
                                     <thead className="border-b">
-                                       <h3>Compétences en programmation</h3>
+                                       <h3 className='ml-5 font-medium'>Compétences en programmation</h3>
 
                                         <tr>
 
@@ -38,7 +38,7 @@ const Competence = () => {
                                     </thead>
                                     <tbody>
                                         <tr className="border-b ">
-                                            <img src="img/angular.png" className="h-20 ml-10 taille " alt="Logo angular " />
+                                            <img src="img/angular.png" className="h-20 ml-10 " alt="Logo angular " />
                                             <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
                                                 Angular
                                             </td>
@@ -62,7 +62,7 @@ const Competence = () => {
 
                                         </tr>
                                         <tr className="bg-white border-b">
-                                            <img src="img/node.png" className="h-20 ml-3 taille1  " alt="Logo node " />
+                                            <img src="img/node.png" className="h-20 ml-3  " alt="Logo node " />
                                             <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
                                                 NodeJS
                                             </td>
@@ -70,7 +70,7 @@ const Competence = () => {
 
                                         </tr>
                                         <tr className="bg-white border-b">
-                                            <img src="img/javafx.png" className="h-20 ml-3 taille1 " alt="Logo javafx " />
+                                            <img src="img/javafx.png" className="h-20 ml-3 " alt="Logo javafx " />
                                             <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
                                                 JavaFX
                                             </td>
@@ -78,7 +78,7 @@ const Competence = () => {
 
                                         </tr>
                                         <tr className="bg-white border-b">
-                                            <img src="img/scenebuilder.png" className="h-20 ml-3 taille  " alt="Logo scenebuilder " />
+                                            <img src="img/scenebuilder.png" className="h-20 ml-3   " alt="Logo scenebuilder " />
                                             <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
                                                 SceneBuilder
                                             </td>
@@ -110,7 +110,7 @@ const Competence = () => {
 
                                         </tr>
                                         <tr className="bg-white border-b">
-                                            <img src="img/bootstrap.png" className="h-20 ml-3 taille  " alt="Logo bootstrap " />
+                                            <img src="img/bootstrap.png" className="h-40 ml-3 w-40 " alt="Logo bootstrap " />
                                             <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
                                                 Bootstrap
                                             </td>
@@ -118,7 +118,7 @@ const Competence = () => {
 
                                         </tr>
                                         <tr className="bg-white border-b">
-                                            <img src="img/tailwind.png" className="h-20 ml-3  " alt="Logo tailwind " />
+                                            <img src="img/tailwind.png" className="h-40 ml-3 w-40  " alt="Logo tailwind " />
                                             <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
                                                 Tailwind
                                             </td>
@@ -137,7 +137,7 @@ const Competence = () => {
                             <div className="overflow-hidden">
                                 <table className="min-w-full">
                                     <thead className="border-b">
-                                    <h3>Outils utilisés</h3>
+                                    <h3 className='ml-5 font-medium'>Outils utilisés</h3>
                                         <tr>
 
                                             <th scope="col" className="text-sm font-medium text-gray-900 px-6 py-4 text-left ">
@@ -152,7 +152,7 @@ const Competence = () => {
                                     </thead>
                                     <tbody>
                                         <tr className="border-b ">
-                                            <img src="img/eclipse.png" className="h-20 ml-10 " alt="Logo angular " />
+                                            <img src="img/eclipse.png" className="h-20 w-40  " alt="Logo eclipse " />
                                             <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
                                                 Eclipse
                                             </td>
@@ -160,7 +160,7 @@ const Competence = () => {
 
                                         </tr>
                                         <tr className="bg-white border-b">
-                                            <img src="img/github.png" className="h-20 " alt="Logo javascript " />
+                                            <img src="img/github.png" className="h-20 " alt="Logo git " />
                                             <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
                                                 GitHub
                                             </td>
@@ -168,7 +168,7 @@ const Competence = () => {
 
                                         </tr>
                                         <tr className="bg-white border-b">
-                                            <img src="img/intellij.png" className="h-20 ml-3  " alt="Logo synfony " />
+                                            <img src="img/intellij.png" className="h-20 ml-3  " alt="Logo intellij " />
                                             <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
                                                 Intellij
                                             </td>
@@ -176,7 +176,7 @@ const Competence = () => {
 
                                         </tr>
                                         <tr className="bg-white border-b">
-                                            <img src="img/mongo.png" className="h-20 ml-3  " alt="Logo node " />
+                                            <img src="img/mongo.png" className="h-20 ml-3  " alt="Logo mongo " />
                                             <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
                                                 MongoDB
                                             </td>
@@ -184,7 +184,7 @@ const Competence = () => {
 
                                         </tr>
                                         <tr className="bg-white border-b">
-                                            <img src="img/mysql.png" className="h-20 ml-3  " alt="Logo javafx " />
+                                            <img src="img/mysql.png" className="h-20 w-20 ml-3  " alt="Logo mysql " />
                                             <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
                                                 MYSQL
                                             </td>
@@ -192,7 +192,7 @@ const Competence = () => {
 
                                         </tr>
                                         <tr className="bg-white border-b">
-                                            <img src="img/sourcetree.png" className="h-20 ml-3  " alt="Logo scenebuilder " />
+                                            <img src="img/sourcetree.png" className="h-20 ml-3  " alt="Logo source " />
                                             <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
                                                 SourceTree
                                             </td>
@@ -200,7 +200,7 @@ const Competence = () => {
 
                                         </tr>
                                         <tr classNames="bg-white border-b">
-                                            <img src="img/sqlserver.png" className="h-20 ml-3  " alt="Logo react " />
+                                            <img src="img/sqlserver.png" className="h-20 ml-3  " alt="Logo sql " />
                                             <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
                                                 SqlServer
                                             </td>
@@ -208,7 +208,7 @@ const Competence = () => {
 
                                         </tr>
                                         <tr className="bg-white border-b">
-                                            <img src="img/trello.png" className="h-20 ml-3  " alt="Logo vue " />
+                                            <img src="img/trello.png" className="h-20 ml-3  " alt="Logo trello " />
                                             <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
                                                 Trello
                                             </td>
@@ -216,7 +216,7 @@ const Competence = () => {
 
                                         </tr>
                                         <tr className="bg-white border-b">
-                                            <img src="img/vscode.png" className="h-20 ml-3  " alt="Logo php " />
+                                            <img src="img/vscode.png" className="h-10 w-20 ml-3  " alt="Logo php " />
                                             <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
                                                 Visual Studio Code
                                             </td>
@@ -232,7 +232,7 @@ const Competence = () => {
 
                                         </tr>
                                         <tr className="bg-white border-b">
-                                            <img src="img/talend.png" className="h-20 ml-3  " alt="Logo php " />
+                                            <img src="img/talend.png" className="h-20 ml-3  " alt="Logo talend " />
                                             <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
                                                 Talend
                                             </td>

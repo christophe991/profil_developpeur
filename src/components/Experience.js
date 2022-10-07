@@ -3,11 +3,11 @@ import '../styles/Experience.css'
 const Experience = () => {
     return (
         <div className='hauteur' >
-            <h1 className='mt-10 font-bold'>Experience</h1>
-            <p>
+            <h1 className='mt-10 font-bold text-center text-xl text-2xl'>Experience</h1>
+            <p className='m-20'>
                 Voici quelque création en projet de groupe
             </p>
-            <div class="flex justify-around">
+            <div class="flex justify-around mt-5">
                 <div class="rounded-lg shadow-lg bg-white max-w-sm">
 
                     <div class="p-6">

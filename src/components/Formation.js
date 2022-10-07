@@ -3,7 +3,7 @@ import '../styles/Formation.css'
 const Formation = () => {
     return (
         <div className='hauteur' >
-            <h1 className='mt-10 font-bold'>Formations</h1>
+            <h1 className='mt-10 font-medium text-center text-2xl'>Formations</h1>
             <div className='grid grid-rows-4 grid-flow-col gap-4 mt-20'>
                 <div>
                     Mai 2022 à Mai 2023

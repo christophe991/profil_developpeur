@@ -3,13 +3,13 @@ import React from 'react'
 const Creation = () => {
     return (
         <div>
-            <h1>Création</h1>
-            <p>
+            <h1 className='font-medium mt-10 text-center text-2xl'>Créations</h1>
+            <p className='m-10'>
                 Voici mes créations effectuer pendant mon loisir,
                 d'autre projet seront ajouter par la suite.
 
             </p>
-            <h2>Mini jeux et horloge en javascript</h2>
+            
             <div className='flex flex-nowrap mt-20 justify-around'>
                 <div class="flex justify-center">
                     <div class="rounded-lg shadow-lg bg-white max-w-sm">
@@ -17,7 +17,7 @@ const Creation = () => {
                             <img class="rounded-t-lg " src="img/memoire.png" alt="jeu de memoire" />
                         </a>
                         <div class="p-6">
-                            <h5 class="text-gray-900 text-xl mb-2 font-bold">Jeu de memoire</h5>
+                            <h5 class="text-gray-900 text-xl mb-2 font-bold">Jeu de memoire en javascript</h5>
                             <p class="text-gray-900 text-xl  mb-2">
                                 Retourner les cartes pour trouver une pair, quand c'est bon une
                                 alerte demande de recommencer, quand la pair est trouver une alertes'affiche aussi
@@ -33,7 +33,7 @@ const Creation = () => {
                             <img class="rounded-t-lg " src="img/space.png" alt="space inveders" />
                         </a>
                         <div class="p-6">
-                            <h5 class="text-gray-900 text-xl  mb-2 font-bold">Space inveders</h5>
+                            <h5 class="text-gray-900 text-xl  mb-2 font-bold">Space inveders en javascript</h5>
                             <p class="text-gray-900 text-xl  mb-2">
                                 Les ronds noir descende a une  vitesse régler par defaut,
                                 en appuyant sur la flache du haut on tire un carré
@@ -49,7 +49,7 @@ const Creation = () => {
                             <img class="rounded-t-lg " src="img/horloge.png" alt="horloge" />
                         </a>
                         <div class="p-6">
-                            <h5 class="text-gray-900 text-xl  mb-2 font-bold">Horloge</h5>
+                            <h5 class="text-gray-900 text-xl  mb-2 font-bold">Horloge en javascript</h5>
                             <p class="text-gray-900 text-xl  mb-2">
                                 Background color noir au centre et des background pour les ailluigues
                                 de differente couleur et de taille (rouge pour les secondes, noir pour les minutes et heures)
@@ -66,7 +66,7 @@ const Creation = () => {
                             <img class="rounded-t-lg w-80 h-80" src="img/image1.png" alt="horloge" />
                         </a>
                         <div class="p-6">
-                            <h5 class="text-gray-900 text-xl  mb-2 font-bold">Horloge</h5>
+                            <h5 class="text-gray-900 text-xl  mb-2 font-bold">Vidéothéque en php</h5>
                             <p class="text-gray-900 text-xl  mb-2">
                                 Sur la page d'accueil j'ai effectué un affichage par categorie avec
                                 une limite de 4, ensuite j'ai afficher tout les jeux, films et série et 

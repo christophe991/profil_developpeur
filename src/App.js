@@ -51,7 +51,7 @@ function App() {
           </div>
           <div >
             <NavLink to="/creation" className="text-white" >
-              Création
+              Créations
             </NavLink>
             
           </div>
