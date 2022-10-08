@@ -5,8 +5,8 @@ import '../styles/Accueil.css'
 const Accueil = () => {
     return (
         <div>
-            <h1 className="font-bold text-center text-xl mt-20 ">Développeur full-stack</h1>
-
+            <p className='effet'>Bienvenue sur mon site </p>
+            <h1 className="font-bold text-center text-2xl mt-20 ">Développeur full-stack</h1>
 
             <div class=" m-20 drop-shadow-2xl">
                 <div class="flex flex-col md:flex-row md:max-w-xl rounded-lg bg-white shadow-lg">
