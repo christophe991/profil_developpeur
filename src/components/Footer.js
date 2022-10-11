@@ -4,7 +4,7 @@ function Footer() {
             <footer class="text-center bg-zinc-500 text-white mt-20">
                 <div class="container px-6 pt-6 ml-60">
                     <div class="flex justify-center mb-6">
-                        <a href="#!" type="button" class="rounded-full border-2 border-white text-white leading-normal uppercase hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1">
+                        <a href="https://www.linkedin.com/in/christophe-heddebaut/" type="button" class="rounded-full border-2 border-white text-white leading-normal uppercase hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1">
                             <svg aria-hidden="true"
                                 focusable="false"
                                 data-prefix="fab"
@@ -21,7 +21,7 @@ function Footer() {
                             </svg>
                         </a>
 
-                        <a href="#!" type="button" class="rounded-full border-2 border-white text-white leading-normal uppercase hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1">
+                        <a href="https://github.com/christophe991?tab=repositories" type="button" class="rounded-full border-2 border-white text-white leading-normal uppercase hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1">
                             <svg aria-hidden="true"
                                 focusable="false"
                                 data-prefix="fab"
@@ -40,7 +40,7 @@ function Footer() {
                     </div>
 
                     <div class="text-center p-4">
-                        © 2021 Copyright :
+                        
                         <span class="self-center text-xl font-semibold whitespace-nowrap text-white ml-1">Développeur web</span>
                         <span class="self-center text-xl font-semibold whitespace-nowrap text-white ml-1">&</span>
                         <span class="self-center text-xl font-semibold whitespace-nowrap text-white ml-1">Concepteur d'application</span>
